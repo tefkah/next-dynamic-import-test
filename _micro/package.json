@@ -1,0 +1,12 @@
+{
+  "name": "micro",
+  "scripts": {
+    "build": "esbuild hello.tsx goodbye.tsx --outdir=dist --jsx=preserve"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5"
+  }
+}
